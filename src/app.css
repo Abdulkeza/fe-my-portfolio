@@ -2,3 +2,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+nav ul a {
+	padding: 1rem;
+	border-bottom: 1px solid rgb(63, 62, 62);
+	text-align: center;
+	font-size: large;
+}
+
+ul a:hover {
+	color: #71f7d8;
+	/* background-color:aqua; */
+}
+.NavLink {
+	padding: 1rem;
+	border-bottom: 1px solid rgb(63, 62, 62);
+	text-align: center;
+	font-size: large;
+	text-decoration: none;
+}
+.NavLink:hover {
+	color: #71f7d8;
+}
